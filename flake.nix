@@ -20,7 +20,6 @@
       devShells.${system} = {
         default = pkgs.mkShell {
           buildInputs = [
-            # includes astal3 astal4 astal-io by default
             ignis.packages.${system}.default
           ];
         };
